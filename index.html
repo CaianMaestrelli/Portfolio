@@ -4,83 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Portfolio Caian Maestrelli</title>
-    <style>
-
-        h1{
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }
-
-        #desc1{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body{
-            background-color: rgb(144, 168, 168);
-        }
-
-        .style-tags{
-            font-style: italic;
-        }
-
-        .style-skills{
-            font-size: 20px;
-        }
-
-    </style>    
 </head>
 <body>
-    <h1><strong>CAIAN MAESTRELLI MIRANDA</strong></h1>
-    <img src="/images/download.png" alt="Foto do perfil de caian maestrelli">
-    <a>
-        <h2 id="desc1">Muito bem-vindo ao meu portifolio!</h2><br>
-        Meu nome e <strong class="style-tags">Caian Maestrelli</strong>, sou <strong class="style-tags">Brasileiro</strong>, natural da cidade do <strong>Rio de Janeiro</strong>.<br>
-        atualmente estou morando em <strong class="style-tags">Itamaraju - BA</strong>.
-    </a>
-    <h2><strong>SKILLS</strong></h2>
-    <ul>
-        <li class="style-skills"><a href="#empreendedor">Empreendedor</a></li>
-        <li class="style-skills"><a href="#designer">Designer Grafico</a></li>
-        <li class="style-skills"><a href="#produtor"><strong>Produtor de Audio</strong></a></li>
-        <li class="style-skills"><a href="#dj"><strong>Dj</strong></a></li>
-    </ul>
-    <a href="/images/download.png">Foto do perfil</a> <br>
-    <a href="https://blog.betrybe.com/" target="_blank">Blog da Trybe</a>
-
-    <p id="empreendedor"><h2><strong>Empreendedor</strong></h2><br>
-    Durante a minha trajetoria de vida tive a oportunidade de abrir algumas empresas no setor de alimentacao.<br>
-    Uma delas foi a Pizzaria <strong>Pizza Jazz</strong> que me fez crescer muito dentro do mundo dos negocios,<br>
-    me dando a oportunidade de aprender todo o processo de fabricacao de pizzas doces e salgadas.<br>
-    Mais recentemente tive a felicidade de fazer parte do projeto de uma Hamburgueria que se chama <strong>Big Bang Lanches</strong>.<br>
-    Esta hamburgueria ainda esta em atividade na cidade do Rio de Janeiro e atende a regiao do Meier e grande Meier.
-    E conta com uma variedade enorme de opcoes de hamburguers, vitaminas e sucos.<br>
-    Me desfiz dessa sociedade para entrar de cabeca no meu projeto de migracao de carreira para a area de DEV.
-    </p>
-    <p id="designer"><h2><strong>Designer Grafico</strong></h2><br>
-        Esta minha qualificacao se deu por conta Auto-Didata, por volta do ano de 2006, eu participava de um time de <strong>CS(Counter-Strike)</strong>, 
-        aonde tinhamos um servidor para treinos e diversao dos membros.<br>
-        Como nosso servidor era "famoso" dentro da comunidade e tinham muitos players de fora do time, precisavamos de um forum, para esclarecer 
-        algumas politicas de regras e debatermos assuntos relevantes ao jogo.<br>
-        Surgiu entao uma necessidade de se criar assinaturas personalizadas, stick e ate mesmo sprays para uso dentro do jogo, por este motivo
-        comecei a pesquisar sobre como fazer essas artes digitais.<br> Foi ai que tive meu primeiro contato com a ferramenta <strong>Photoshop</strong> e desde entao
-        criei uma paixao pelo designer e suas possibilidades. Hoje presto servico para algumas empresas e pessoas fisicas criando layouts, cartoes de visita,
-        logomarcas e etc
-    </p>
-    <p id="produtor"><h2><strong>Produtor de Audio</strong></h2><br>
-       Formado na escola de producao fonografica <strong>HomeStudio</strong> do renomado produtor <strong>Sergio Izaksson</strong>, aonde pude aprender tudo sobre conversao do audio analogico
-       para o audio digital, e trabalhando por um bom tempo no <strong>Pedra Branca Studio</strong>, pude obter uma enorme experiencia com pre-producao e producao 
-       de trabalhos fonograficos, desde a criacao de arranjos e melodias ate a mixagem e masterizacao de faixas e albuns.<br>
-       A musica sempre esteve presente em toda a minha vida e eu sou um aterno amante de musica.<br>
-    <strong><em>"Na minha concepcao so existem dois tipos de musica: as boas e as ruins"</em></strong><br>
-       Minha paixao e a musica eletronica e voce pode conferir alguns dos meus trabalhos clicanco no link abaixo!<br>
-       <a href="https://soundcloud.com/caianmaestrelli" target="_blank"><strong>Meu Soundcloud</strong></a>
-    </p>
-    <p id="dj"><h2><strong>Dj</strong></h2><br>
-        Natural do Rio de Janeiro, Dj e Produtor Caian Maestrelli Miranda teve suas primeiras experiências com a música eletrônica no começo do ano 2000,
-        em 2001 começou seu interessepelo mundo da produção fonográfica. Desde então vem se apresentando em Festas e Privets.
-       Sua extensa bagagem e diversidade musical, trazem para o dancefloor uma mistura de vertentes criando uma atmosféra mistica, e levando o publico
-        a um outro estado de percepção do mundo através da música.
-    </p>
-    
+    <div id="conteudo">
+        <div class="div-intro">
+            <h1 id="meu-nome"><strong>CAIAN MAESTRELLI MIRANDA</strong></h1>
+            <div class="foto-descricao">
+                <div class="foto">
+                    <img id="foto-perfil" src="/images/fotoperfilface.jpg" alt="Foto do perfil de caian maestrelli">
+                </div>
+                <div id="descricao">
+                    
+                    <h2 id="desc1">Bem-vindo ao meu portifolio!</h2>
+                    <p id="quem-sou">Meu nome e Caian Maestrelli, sou Brasileiro, natural da cidade do Rio de Janeiro.
+                    atualmente estou morando em Itamaraju - BA.</p>
+                    
+                </div>
+            </div>    
+            
+        </div>
+        <div id="skills-menu">
+            <h2 class="skills-title">SKILLS</h2>
+            <div id="skills-itens">
+                <a href="#empreendedor"><button>Empreendedor</button></a>
+                <a href="#designer"><button>Designer Grafico</button></a>
+                <a href="#produtor"><button>Produtor de Audio</button></a>
+                <a href="#dj"><button>Dj</button></a>
+            </div>
+        </div>
+        
+        <div id="bio">
+            <p id="empreendedor"><h2>Empreendedor</h2><br>
+            Durante a minha trajetoria de vida tive a oportunidade de abrir algumas empresas no setor de alimentacao.<br>
+            Uma delas foi a Pizzaria Pizza Jazz que me fez crescer muito dentro do mundo dos negocios,<br>
+            me dando a oportunidade de aprender todo o processo de fabricacao de pizzas doces e salgadas.<br>
+            Mais recentemente tive a felicidade de fazer parte do projeto de uma Hamburgueria que se chama Big Bang Lanches.<br>
+            Esta hamburgueria ainda esta em atividade na cidade do Rio de Janeiro e atende a regiao do Meier e grande Meier.
+            E conta com uma variedade enorme de opcoes de hamburguers, vitaminas e sucos.<br>
+            Me desfiz dessa sociedade para entrar de cabeca no meu projeto de migracao de carreira para a area de DEV.
+            </p>
+            <p id="designer"><h2>Designer Grafico</h2><br>
+                Esta minha qualificacao se deu por conta Auto-Didata, por volta do ano de 2006, eu participava de um time de CS(Counter-Strike), 
+                aonde tinhamos um servidor para treinos e diversao dos membros.<br>
+                Como nosso servidor era "famoso" dentro da comunidade e tinham muitos players de fora do time, precisavamos de um forum, para esclarecer 
+                algumas politicas de regras e debatermos assuntos relevantes ao jogo.<br>
+                Surgiu entao uma necessidade de se criar assinaturas personalizadas, stick e ate mesmo sprays para uso dentro do jogo, por este motivo
+                comecei a pesquisar sobre como fazer essas artes digitais.<br> Foi ai que tive meu primeiro contato com a ferramenta Photoshop e desde entao
+                criei uma paixao pelo designer e suas possibilidades. Hoje presto servico para algumas empresas e pessoas fisicas criando layouts, cartoes de visita,
+                logomarcas e etc
+            </p>
+            <p id="produtor"><h2>Produtor de Audio</h2><br>
+            Formado na escola de producao fonografica HomeStudio do renomado produtor Sergio Izaksson, aonde pude aprender tudo sobre conversao do audio analogico
+            para o audio digital, e trabalhando por um bom tempo no Pedra Branca Studio, pude obter uma enorme experiencia com pre-producao e producao 
+            de trabalhos fonograficos, desde a criacao de arranjos e melodias ate a mixagem e masterizacao de faixas e albuns.<br>
+            A musica sempre esteve presente em toda a minha vida e eu sou um aterno amante de musica.<br>
+            <em>"Na minha concepcao so existem dois tipos de musica: as boas e as ruins"</em><br>
+            Minha paixao e a musica eletronica e voce pode conferir alguns dos meus trabalhos clicanco no link abaixo!<br>
+            <a href="https://soundcloud.com/caianmaestrelli" target="_blank"><strong>Meu Soundcloud</strong></a>
+            </p>
+            <p id="dj"><h2>Dj</h2><br>
+                Natural do Rio de Janeiro, Dj e Produtor Caian Maestrelli Miranda teve suas primeiras experiências com a música eletrônica no começo do ano 2000,
+                em 2001 começou seu interessepelo mundo da produção fonográfica. Desde então vem se apresentando em Festas e Privets.
+            Sua extensa bagagem e diversidade musical, trazem para o dancefloor uma mistura de vertentes criando uma atmosféra mistica, e levando o publico
+                a um outro estado de percepção do mundo através da música.
+            </p>
+        </div>    
+    </div>
 </body>
 </html>
