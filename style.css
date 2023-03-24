@@ -1,0 +1,145 @@
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: antiquewhite;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+#desc1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+
+body{
+    background-color: rgb(3, 31, 37);
+    background-image: url(/images/v627-aew-41-technologybackground.jpg);
+    width: 100%;
+}
+
+#conteudo{
+
+    background-color: rgb(17, 2, 27);
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-radius: 50px;
+
+    
+
+}
+
+.style-tags{
+    font-style: italic;
+    color: antiquewhite;
+}
+
+.style-skills{
+    font-size: 20px;
+    color: antiquewhite;
+    
+}
+
+a{
+    color: antiquewhite;
+}
+
+#foto-perfil{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.foto{
+    width: 200px;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(41, 48, 49) ; 
+    border-radius: 20px;
+   
+}
+
+#descricao{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.div-intro{
+    height: fit-content;
+    margin-top: 1px;
+}
+
+#meu-nome{
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 25px;
+}
+
+
+#quem-sou{
+    text-align: justify;
+}
+
+.foto-descricao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bio h2{
+    font-weight: bold;
+}
+
+#skills-itens{
+    text-align: center;
+    width: 100%;
+    
+    display: flex;      
+    justify-content: center;
+    align-self: center;
+   
+
+    
+        
+}
+
+.skills-title{
+    
+    color: rgb(165, 8, 170);
+    text-align: center;
+    width: 100%;
+    display: flex;      
+    justify-content: space-around;
+    align-self: flex-end;
+    
+}    
+
+#bio{
+    color: antiquewhite;
+    display: flexbox;
+    text-align: justify;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#empreendedor{
+    text-align: justify;
+    bottom:auto;
+    
+}
